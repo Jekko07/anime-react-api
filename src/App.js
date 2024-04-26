@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import AnimeItem from "./Components/AnimeItem";
 import Homepage from "./Components/Homepage";
 import Gallery from "./Components/Gallery";
@@ -7,7 +7,7 @@ import Gallery from "./Components/Gallery";
 function App() {
   
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         {/* //Routing to popular */}
         <Route path="/" element={<Homepage />} />
@@ -16,7 +16,7 @@ function App() {
         {/* Routing to each Anime Character */}
         <Route path="/character/:id" element={<Gallery />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
