@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/anime-react-api/static/js/main.d44c2932.js",
+    "main.js": "/anime-react-api/static/js/main.6256cdef.js",
     "index.html": "/anime-react-api/index.html",
-    "main.d44c2932.js.map": "/anime-react-api/static/js/main.d44c2932.js.map"
+    "main.6256cdef.js.map": "/anime-react-api/static/js/main.6256cdef.js.map"
   },
   "entrypoints": [
-    "static/js/main.d44c2932.js"
+    "static/js/main.6256cdef.js"
   ]
 }
